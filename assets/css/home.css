@@ -1,5 +1,32 @@
-@import "style.css";
 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(52, 110, 235);
+  }
+
+  
+.navbar-item{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+  }
+  
+.navbar-item:hover {
+    background-color: #111;
+  }
+
+.navbar-link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 .bolg-post-grid{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -23,3 +50,92 @@
         "b4 b5 b6 t";
     }
 }
+
+
+.title{
+    font-size: xx-large;
+    padding: auto;
+    margin: auto;
+    margin-left: 30px;
+    text-align:start;
+}
+ 
+
+.blog-card{
+    background: fixed;
+    padding: 15px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px hsla(0,0%,0%,.05);
+    transition: .25s ease;
+    margin-left: 5px;
+    margin-right: 5px;   
+}
+
+.card1{
+    grid-area: b1;
+}
+.card2{
+    grid-area: b2;
+}
+.card3{
+    grid-area: b3;
+}
+.card4{
+    grid-area: b4;
+}
+.card5{
+    grid-area: b5;
+}
+.card6{
+    grid-area: b6;
+}
+    
+.blog-card:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 10px hsla(0,0%,0%,.1)
+}
+
+.blog-topic{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    margin: auto;
+    display: inline-block;
+}
+
+.blog-topic:hover{
+    background-color: blue;
+}
+
+.personal-info{
+    grid-area: t;
+    background-color:cornflowerblue;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    height: 90%;
+}
+
+.personal-info:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 10px hsla(0,0%,0%,.1)
+}
+
+.footer-copy-rights{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+footer {
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    padding: 3px;
+    background-color:darkslategray;
+    color: white;
+}
+

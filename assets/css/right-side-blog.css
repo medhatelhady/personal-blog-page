@@ -31,7 +31,12 @@
     font-weight: 200;
 }
 .my-image{
-    margin-top: 10px;
-    margin-left: 10px;
+    display: none;
 }
-
+@media (min-width:1000px) {
+    .my-image{
+        display: block;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
