@@ -3,9 +3,8 @@
 
 A multi-page website built using `HTML` and `CSS` skills which includes custom images, layout, and styling. Along with the webpage design considerations, I worked to appropriately structure the files, as well as use proper formatting & style. The project also focusses on using Flexbox and Grid systems to make the page responsive.
 
-Open and view the Project using the `.zip` file provided or at my [Github Repository](https://github.com/madhur-taneja/Personal-Blog-Website).
+Open and view the Project using the `.zip` 
 
-The project is also hosted on [Github](https://madhur-taneja.github.io/Personal-Blog-Website).
 
 ## Getting Started
 
@@ -20,16 +19,6 @@ No additional tools are required apart from a text editor of your choice
 ### Installation
 
 No additional installation is required for this project
-
-
-
-
-  
-  
-  
-
-
-
 
 ## Features
 
