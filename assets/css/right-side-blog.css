@@ -1,0 +1,37 @@
+
+/*container of side part*/
+.side{
+    grid-area: i;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.blog-card{
+    background: fixed;
+    padding: 15px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px hsla(0,0%,0%,.05);
+    transition: .25s ease;
+    margin: 10px;
+    order: 0;
+}
+
+.resources-wrapper{
+    margin: 10px;
+    padding: 10px;
+    order: 2;
+}
+
+.name, .title, .bio {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: medium;
+    font-weight: 200;
+}
+.my-image{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+

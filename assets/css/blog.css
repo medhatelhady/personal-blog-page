@@ -1,0 +1,64 @@
+@import "right-side-blog.css";
+@import "blog-content.css";
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-title{
+    order: 0;
+    font-size: xx-large;
+}
+.topic-image{
+    order: 1;
+    width: 100%;
+    object-fit:cover;
+}
+
+.text-sm{
+    order: 2;
+}
+
+
+
+
+/* button */
+.back-btn{
+    order: 4;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    display: inline-flex;
+    margin: 20px;
+    align-self: center;
+    background-color: aqua;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+
+.back-btn:hover{
+    background-color: white;
+}
+
+/* all about footer*/
+footer {
+    order: 4;
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    padding: 3px;
+    background-color:darkslategray;
+    color: white;
+  }
+
+  
+.footer-copy-rights{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+

@@ -1,0 +1,25 @@
+@import "style.css";
+
+.bolg-post-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, ifr);
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    grid-template-areas:  "b1" "b2" "b3" "b4" "b5" "b6" "t";
+}    
+
+@media (min-width:1000px){
+    .bolg-post-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, ifr);
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        grid-template-areas: 
+        "b1 b2 b3 t"
+        "b4 b5 b6 t";
+    }
+}
